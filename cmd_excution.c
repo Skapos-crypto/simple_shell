@@ -8,10 +8,10 @@
 
 #define MAX_LENGTH 1024
 /**
- * execute_command - Executes a command entered by the user.
- *
- * @input: The command entered by the user.
- */
+* execute_command - Executes a command entered by the user.
+*
+* @input: The command entered by the user.
+*/
 void execute_command(char *input)
 {
 char *token;

@@ -8,10 +8,10 @@
 
 #define MAX_LENGTH 1024
 /**
- * read_input - Reads input from the user.
- *
- * Return: A dynamically allocated string containing user input.
- */
+* read_input - Reads input from the user.
+*
+* Return: A dynamically allocated string containing user input.
+*/
 char *read_input(void)
 {
 char *input = NULL;

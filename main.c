@@ -8,26 +8,26 @@
 
 #define MAX_LENGTH 1024
 /**
- * main - Simple shell program
- *
- * Return: Always 0
- */
+* main - Simple shell program
+*
+* Return: Always 0
+*/
 int main(void)
 {
-	char *input;
+char *input;
 
-	while (1)
-	{
-	input = read_input();
-	if (strcmp(input, "exit") == 0)
-	{
-	printf("Exiting the shell.\n");
-	free(input);
-	exit(0);
-	}
-	execute_command(input);
-	free(input);
-	}
+while (1)
+{
+input = read_input();
+if (strcmp(input, "exit") == 0)
+{
+printf("Exiting the shell.\n");
+free(input);
+exit(0);
+}
+execute_command(input);
+free(input);
+}
 
-	return (0);
+return (0);
 }
