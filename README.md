@@ -9,7 +9,7 @@ Shell is a simple UNIX command interpreter that replicates functionalities of th
 This program was written entirely in C Language.
 
 COPYRIGHT
-Copyright (C) 2022 by Reny Kipkoech and Stellah Mbao
+Copyright (C) 2023 Mohamed Elkhatib and Clair Hany
 All rights reserved
 
 Description :
