@@ -30,8 +30,11 @@ Handle the Ctrl-C to not terminate the shell
 Handling the command seperator ;
 Handling && and || logical operators
 Handle variable replacements $? and $$
-Handle the comments #
 Support the history feature
 Support the file input
 Builtins
 Our shell has support for the following built-in commands:
+ls
+Ls + flags
+cd
+pwd
